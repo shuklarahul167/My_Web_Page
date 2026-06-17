@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">ShopKart</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<h1 class="page-title">Products</h1>
+
+<section class="products">
+
+<div class="product">
+    <img src="https://picsum.photos/300/200?1">
+    <h3>Smart Phone</h3>
+    <p>₹15,999</p>
+    <button class="add">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="https://picsum.photos/300/200?2">
+    <h3>Sports Shoes</h3>
+    <p>₹2,499</p>
+    <button class="add">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="https://picsum.photos/300/200?3">
+    <h3>Laptop</h3>
+    <p>₹55,999</p>
+    <button class="add">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="https://picsum.photos/300/200?4">
+    <h3>Headphones</h3>
+    <p>₹1,999</p>
+    <button class="add">Add to Cart</button>
+</div>
+
+</section>
+
+<script>
+$(document).ready(function(){
+    $(".add").click(function(){
+        alert("Product Added To Cart");
+    });
+});
+</script>
+
+</body>
+</html>
